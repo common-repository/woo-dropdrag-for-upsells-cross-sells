@@ -1,0 +1,121 @@
+
+.drop-drag-wrap, .ui-widget-header {
+    border: none!important;
+    background: none!important;
+    color: #555!important;
+    padding: 0!important;
+}
+#woocommerce-product-data ul.hh-tabs {
+    margin: 0;
+    width: 30%;
+    float: left;
+    line-height: 1em;
+    padding: 0 0 10px;
+    position: relative;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+#woocommerce-product-data ul.hh-tabs li{
+	margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    float: none;
+    border: none;background: none;
+}
+#woocommerce-product-data ul.hh-tabs li.ui-state-active{
+    float: none;
+    border: none;background: none;
+}
+#woocommerce-product-data ul.hh-tabs li a{
+   margin: 0;
+   padding: 10px;
+   display: block;
+   box-shadow: none;
+   text-decoration: none;
+   line-height: 20px!important;
+   border-bottom: 1px solid #eee;
+   float: none;
+   color: #0073aa;
+   font-size: 13px;
+}
+#woocommerce-product-data ul.hh-tabs li.ui-state-active a{
+   color: #555;
+   position: relative;
+   background-color: #eee;
+}
+#woocommerce-product-data ul.hh-tabs li img{
+  /*max-width: 70px;*/
+}
+
+#woocommerce-product-data .hh_panel {
+   float: left;
+   width: 100%;
+   padding: 0;
+   color: #555;
+}
+#drop_drap_product_options{
+   width: 60%;
+   float: left;
+}
+.categories_sort_wrap{
+   width: 70%;
+   float: left;
+}
+#up-cross-sells-wrap{
+   width: 38%;
+   float: left;
+   margin-left: 2%;
+}
+#up-cross-sells-wrap ul{
+   margin-top: 0;
+   border:1px solid #eee;
+   min-height: 80px;
+}
+#up-cross-sells-wrap ul li{
+   margin-bottom: 0;
+}
+.cross-title, .up-title{
+   padding: 5px;
+   text-align: center;
+   background: #006799;
+   color: #fff;
+}
+.cross-title{
+   background: #006799;
+}
+ul.hh_list{
+   overflow: hidden;
+}
+ul.hh_list li{
+   float: left;
+   position: relative;
+}
+ul.hh_list li img{
+  width:70px;
+  height: 70px; 
+}
+ul.hh_list li .js-remove {
+   font-size: 14px;
+   height: 1em;
+   width: 1em;
+   text-align: center;
+   line-height: 1;
+   border-radius: 100%;
+   color: red!important;
+   text-decoration: none;
+   font-weight: 700;
+   border: 0;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   display: none;
+}
+ul#upsells-area li:hover .js-remove, ul#cross-sells-area li:hover .js-remove, ul#grouped-products-area li:hover .js-remove {
+   color: #fff!important;
+   background: red;
+   display: block;
+}
